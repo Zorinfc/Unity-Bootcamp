@@ -7,7 +7,7 @@ Eksikler
 
 * Playerın coinleri topladığında particle çıkıyor ama hiçbir zaman durmuyordu. OnAwake tikini kapattım ve doğru şekilde çalışıyor sadece oynayan için görünür değil particle'lar. 
 * Platformları oluşturduğum birim kareler arasında boşluk bırakmadan zemin oluşturmaya çalıştım ama oyun içerisinde aralarında boşluklar var, ayrıca sahnedeki rampa olarak yaptığım bir platformda 1 tane birim kare oyun ekranında görünmez oluyor. Sorunu çözemedim.
-* Coin toplandığında coin opjelerini destroy ediyorum ve ardından "CoinCount" adlı değişkeni arttırmayı deniyorum. 0'dan 1'e çıkıyor ama ilerlemiyor.
+* Coin toplandığında coin opjelerini destroy ediyorum ve ardından "CoinCount" adlı değişkeni arttırmayı deniyorum. 0'dan 1'e çıkıyor ama daha ileri gitmiyor.
 * Karakterin yürürken çıkarması gereken toz particle'ını yaptım, karakter havadayken particle yok. Ancak bazı rampalardan sağ veya sol hareketini gerçekleştirirken uçar ise; karakterim toz particle'ını yine gerçekleştiriyor.
 * Zıplama sınırsız. Kapatmayı nasıl yapacağımı çözemedim açıkcası .
 * Karakter platformdan aşağı düştüğünde respawn pozisyonuna gönderen bi collider ve script ekledim. Fakat bi ölüm ekranı eklemedim.
